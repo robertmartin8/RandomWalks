@@ -135,7 +135,8 @@ for i in range(20):
         plot = ax.imshow(julia, interpolation="nearest", cmap="gnuplot2")
         ims.append((plot, t))
 
-im_ani = animation.ArtistAnimation(fig, ims, interval=500, repeat_delay=3000, blit=True)
+im_ani = animation.ArtistAnimation(
+    fig, ims, interval=500, repeat_delay=3000, blit=True)
 im_ani.save("c_choice.mp4", writer=animation.FFMpegWriter())
 
 julia_set(complex(-0.418, -0.59), mkplot=True)
