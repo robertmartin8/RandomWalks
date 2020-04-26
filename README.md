@@ -1,3 +1,3 @@
 # RandomWalks
 
-Small-ish scripts that I usually reference on my blog, [reasonabledeviations.science](https://reasonabledeviations.com)
+Small-ish scripts/spreadsheets/notebooks that I usually reference on my blog, [reasonabledeviations.com](https://reasonabledeviations.com)
